@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="container1">
+        <h2 id="app-name">Metric/Imperial Unit Conversion</h2>
+        <input id="input" role="text" placeholder="0" style="width:20%">
+        <button id="convert-btn">Convert</button>
+    </div>
+    <div id="container2">
+        <div class="measure">
+            <h3 class="subtitle">Lenght (Meter/Feet)</h3>
+            <p id="lenght-el" class="text">0 Meters = 0.000 Feet | 0 Feet = 0.000 Meters</p>
+        </div>
+        <div class="measure">
+            <h3 class="subtitle">Volume (Liters/Gallons)</h3>
+            <p id="volume-el" class="text">0 Liters = 0.000 Gallons | 0 Gallons = 0.000 Liters</p>
+        </div>
+        <div class="measure">
+            <h3 class="subtitle">Mass (Kilograms/Pounds)</h3>
+            <p id="mass-el" class="text">0 Kilograms = 0.000 Pounds | 0 Pounds = 0.000 Kilograms</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
